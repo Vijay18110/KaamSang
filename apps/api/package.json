@@ -1,0 +1,22 @@
+{
+  "name": "@kaamsang/api",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test",
+    "seed:demo": "node scripts/seed-demo.js",
+    "seed:users": "node scripts/seed-users.js",
+    "seed:realistic": "node scripts/realistic-demo.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "swagger-ui-express": "^5.0.1",
+    "mongodb": "^6.17.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.1"
+  }
+}

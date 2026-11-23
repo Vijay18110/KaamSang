@@ -1,0 +1,17 @@
+{
+  "name": "kaamsang",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:api": "npm -w @kaamsang/api run dev",
+    "dev:web": "npm -w @kaamsang/web run dev",
+    "test": "npm -w @kaamsang/api test",
+    "build": "npm -w @kaamsang/web run build",
+    "seed:demo": "npm -w @kaamsang/api run seed:demo",
+    "seed:users": "npm -w @kaamsang/api run seed:users",
+    "seed:realistic": "npm -w @kaamsang/api run seed:realistic"
+  }
+}
